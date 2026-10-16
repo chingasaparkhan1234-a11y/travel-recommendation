@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravelBloom - Recommendations</title>
+  <link rel="stylesheet" href="./travel_recommendation.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo"><h2>TravelBloom</h2></div>
+    <ul class="nav-links">
+      <li><a href="./index.html" class="active">Home</a></li>
+      <li><a href="./about_us.html">About Us</a></li>
+      <li><a href="./contact_us.html">Contact Us</a></li>
+    </ul>
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Enter beach, temple, or country">
+      <button id="btnSearch" class="btn btn-search">Search</button>
+      <button id="btnClear" class="btn btn-clear">Clear</button>
+    </div>
+  </nav>
+  <div class="hero-section">
+    <div class="hero-content">
+      <h1>EXPLORE YOUR DREAM DESTINATION</h1>
+      <p>Discover personalized travel recommendations tailored to your style. Plan your next journey with TravelBloom.</p>
+      <a href="#resultsContainer" class="btn-cta">Book Now</a>
+    </div>
+    <div id="resultsContainer" class="results-container"></div>
+  </div>
+  <script src="./travel_recommendation.js"></script>
+</body>
+</html>
